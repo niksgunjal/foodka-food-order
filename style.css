@@ -1,0 +1,544 @@
+/* *{
+    font-family: 'Bebas Neue', cursive;
+} */
+
+h1, h2, h3{
+    font-family: "Barlow", sans-serif;
+}
+.nav{
+    background-color: rgb(206, 40, 41);
+}
+
+.navbar-font-size{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Barlow', sans-serif;
+    /* line-height: 500px; */
+}
+
+.visually-hidden{
+   color: black;
+}
+
+.badge{
+    color: black;
+}
+
+.btn-check:focus+.btn, .btn:focus{
+    box-shadow: none;
+}
+
+.btn:hover{
+    color: yellow !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: yellow !important;
+}
+
+.logo-img{
+    margin-left: 110px; 
+    margin-top: -10px;
+    max-width: 100%;
+    height: 50px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-left: 3.5rem;
+}
+
+.search-icon{
+    margin-left: 150px;
+    font-size: 17px;
+}
+
+.search-icon:hover{
+   
+    color: yellow !important;
+}
+
+.cart-price-txt{
+    margin-left: 40px;
+}
+
+.cart{
+    margin-left: 40px;
+    font-size: 20px;
+    margin-top: -5px !important;
+}
+
+
+.telephone-icon{
+    margin-left: 40px !important;
+    
+}
+
+.search-link{
+    height: 10px;
+}
+
+.banner{
+    height: auto;
+    background-color: rgb(206, 40, 41);
+}
+
+.banner-img{
+    height: 350px;
+    margin-top: -7px;
+    margin-left: 240px;
+    
+}
+
+/* .main-banner-txt{
+    font-size: 30px;
+} */
+
+.banner-txt{
+    width: 500px;
+    padding-top: 50px;
+}
+
+.offer-img{
+    margin-top: -110px;
+    margin-left: 200px; 
+}
+
+
+.main-banner-txt{
+    font-size: 70px;
+}
+
+.inner-banner-txt{
+    padding-top: 150px;
+}
+
+.get-it-btn{
+    width: 220px;
+    height: 60px;
+    border: none;
+}
+
+.get-it-btn :hover {
+    color: black;
+}
+
+.menu-categories{
+    height: 100px;
+}
+
+.category{
+    height: 50px;  
+}
+
+.category-img{
+    height: 50px;
+    width: 50px;
+}
+
+.category-txt{
+    font-size: 18px;
+}
+.offers-rapper{
+    margin-top: 110px !important;
+}
+
+.large-offer-section{
+    height: 500px;
+    background-color: rgb(206, 40, 41);
+}
+
+.special-deliciaus{
+    width: 350px;
+}
+.special-txt{
+    font-size: 60px;
+}
+
+.order-now-btn{
+    background-color: aliceblue;
+    color: rgb(206, 40, 41);
+}
+
+.deliciaus-img{
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+.small-offer-section{
+    height: 243px;
+    background-color: var(--heading-color);
+}
+
+
+
+.small-offer-txt h3{
+    font-weight: 500;
+}
+
+.delivery-burger{
+    margin-left: -280px;
+    width: 550px;
+    height: 243px;
+}
+
+.rating-color{
+    color: red;
+}
+
+.blank{
+    background-color: #ffeecc !important;
+}
+
+.small-offer-section-2{
+    background: linear-gradient(
+90.1deg, #ffeecc 38.57%, rgba(255, 238, 204, 0) 66.47%);
+}
+
+.signature-section{
+    height: 200px !important;
+}
+
+
+.popular-dishes-section{
+    height: 550px;
+    margin-top: 200px !important;
+}
+
+.hover-it{
+    display: none;
+    
+}
+
+.popular-dish-choose:hover  .hover-it{
+    display: block;
+    color: black;
+}
+
+.popular-dish:hover  .hover-it{
+    display: block;
+    color: black;
+}
+
+.choose-btn{
+    padding: 5px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: -30px;
+    height: 60px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    font-size: 21px;
+    border: none;
+}
+.popular-dish-choose{
+    transition: all 1.4s ease-in;
+    
+}
+
+.popular-dish{
+    transition: all 1.4s ease-in;
+    
+}
+
+.popular-dish{
+    height: 450px;
+    background-color: antiquewhite;
+
+}
+
+.popular-dish-choose{
+    height: 450px;
+    background-color: antiquewhite;
+}
+
+.popular-dish-choose:hover{
+    height: auto;
+    
+}
+.popular-dish:hover{
+    height: auto;
+    
+}
+
+.dollar-price{
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+
+.lunchtime-fav-section{
+    height: 500px;
+}
+
+.why-choose-us-section{
+    height: 670px;
+    background-color: rgb(172, 166, 166);
+}
+
+.these-services{
+    background-color: antiquewhite;
+}
+
+.services-txt{
+    font-size: 18px;
+    margin-left: 14px !important;
+}
+
+.why-choose-us-img{
+    height: 450px;
+    width: 650px;
+    margin-top: 70px;
+}
+
+.services-section{
+    height: 100px;
+}
+
+.sliders{
+    height: 500px;  
+}
+
+.awesomeness-of-food-section{
+    height: 420px;
+}
+
+.about-foodka{
+    height: 470px;
+}
+
+.about-section{
+    height: 470px;
+}
+
+.footer{
+    height: 100px;
+}
+
+.parallax {
+    /* The image used */
+   
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .slider-back-img{
+    background-size: cover;
+    background-position: center;
+  }
+
+  .slider-container{
+      width: 600px;
+  }
+  
+  .carousel-item{
+      margin-top: 200px;
+  }
+
+.carousel-control-prev{
+    margin-left: -100px;
+    margin-top: 200px;
+}
+
+.carousel-control-next{
+    margin-right: -100px;
+    margin-top: 200px;
+}
+
+.nav-pills .nav-link.active{
+    background-color: black !important;
+}
+
+.tabs{
+    margin-top: 50px;
+    background-color: white !important;
+    
+}
+
+/* .nav-link:active{
+    color: white !important;
+} */
+
+.tabs-pill{
+    width: 186px;
+    background-color: rgb(243, 238, 238) !important;
+}
+
+.fa-heart{
+    text-align: right !important;
+    margin-left: 300px;
+    font-size: 20px !important;
+}
+
+.fa-heart:hover{
+    color: red !important;
+}
+.tabs-class{
+    margin-left: 50px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff !important;
+}
+
+.tab-container{
+    margin-top: 100px;
+}
+
+.rounded-corners{
+    border-radius: 15px !important;
+}
+
+.resize-box {
+    width: 320px;
+    height: 140px;
+    transition:  height 0.5s;
+    position: relative;
+    position: absolute;
+    bottom: 10px;
+    padding: 0px;
+    margin-left: 18px;
+}
+
+.resize-box:hover {
+    height: 340px;
+  }
+
+  .sliding-img{
+      width: 370px;
+      margin-left: -15px;
+      height: 450px;
+  }
+
+  .broad-img{
+      width: 355px;
+      height: 450px;
+  }
+
+  .tag{
+      margin-left: 30px;
+  }
+
+  h6.fromLeft { display:inline-block; margin:0;text-transform:uppercase; }
+  h6.fromLeft:after {
+    display:block;
+    content: '';
+    border-bottom: solid 1px #dc3545!important;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+  h6.fromLeft:hover:after { transform: scaleX(1); }
+  /* h4.fromRight:after{ transform-origin:100% 50%; } */
+  h6.fromLeft:after{  transform-origin:  0% 50%; }
+
+  .cart-title-hover:hover{
+      color: #dc3545;
+
+  }
+
+  .satisfy-font{
+    font-family: 'Satisfy', cursive;
+     font-weight: 400;
+  }
+
+  .about-logo{
+      margin-top: 60px;
+      font-size: 24px;
+      font-weight: 500;
+      font-family: 'Barlow', sans-serif;
+  }
+
+  .menues{
+      margin-top: 60px;
+      margin-left: -35px;
+
+  }
+
+  .location{
+    margin-top: 40px;
+
+  }
+
+  .location-txt{
+      margin-left: 40px;
+      margin-top: -30px;
+      font-size: 16px;
+  }
+
+  .listing{
+    list-style-type: none;
+    line-height: 2;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400 !important;
+    /* font-size: 18px; */
+  }
+
+  .insta-feeds > li{
+      display: inline-block;
+
+  }.insta-feeds > li > img{
+      height: 80px;
+      width: 90px;
+      padding: 5px;
+
+  }
+
+  .feed{
+      margin-left: -30px;
+      margin-top: 30px;
+  }
+
+  .footer-txt{
+      margin-left: 70px;
+  }
+
+  .delicious-deals-section{
+    margin-top: 30px;
+    font-size: 42px;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+    line-height: 56px;
+    color: rgb(41, 41, 41);
+}
+
+
+.product_tab{
+    padding-right: 10px;
+}
+
+@media (min-width: 992px){
+    .col-lg-6{
+        width: 100%;
+        /* margin-top: -90px; */
+    }
+}
+
+
+.form-control{
+    width: 600px;
+    margin-left: 400px;
+    height: 60px;
+}
+
+.see-location{
+    margin-left: -80px;
+    width: 200px;
+}
+
+.sub-main-banner-txt{
+    font-size: 50px;
+
+}
+
+.see-locations{
+    margin-left: -100px;
+    margin-top: 35px;
+}
